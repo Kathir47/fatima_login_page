@@ -42,20 +42,38 @@ body {
 
 .login-header {
     text-align: center;
-    margin-bottom: 32px;
+    margin-bottom: 25px;
 }
 
 .material-logo {
-    margin-bottom: 24px;
+    margin-bottom: 10px;
     display: flex;
     justify-content: center;
 }
 
-.logo-layers {
+.fatima_logo{
+    width: 70px;
+    height: 70px;
+}
+
+.login-btn-parent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-in{
+    width: 35% !important;
+}
+
+.new-reg{
+    width: 60% !important;
+}
+
+/* .logo-layers {
     position: relative;
     width: 56px;
     height: 56px;
-}
+} */
 
 .layer {
     position: absolute;
@@ -389,7 +407,7 @@ body {
     border-radius: 4px;
     padding: 12px 24px;
     color: white;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.2s ease;
@@ -666,7 +684,8 @@ body {
     }
     
     .form-options {
-        flex-direction: column;
+        /* flex-direction: column; */
+        flex-direction: row;
         align-items: flex-start;
         gap: 16px;
     }
