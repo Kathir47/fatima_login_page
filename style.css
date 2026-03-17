@@ -458,7 +458,7 @@ body {
     margin-bottom: 24px;
     text-transform: uppercase;
     letter-spacing: 0.25px;
-    min-height: 48px;
+    min-height: 36px;
     overflow: hidden;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
