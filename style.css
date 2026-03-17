@@ -13,11 +13,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    /* padding: 20px; */
     line-height: 1.5;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('fatima_background.webp') no-repeat center center/cover;
 }
 
 
@@ -26,14 +29,26 @@ body {
     display: flex;
     justify-content: space-between;
     height: 100px;
+    height: 100px;
+    background: #ffffff;
+    padding: 13px;
+
 } 
 
 .header img:first-child{
-    width: 600px;
+    width: 450px;
 }
 
 .header img:nth-child(2){
-    width: 350px;
+    width: 270px;
+}
+
+.login_wrapper{
+    width: 100%;
+    height: calc(100vh - 115px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .login-container {
@@ -704,7 +719,11 @@ body {
 /* Mobile Responsive */
 @media (max-width: 480px) {
     body {
-        padding: 16px;
+        /* padding: 16px; */
+    }
+
+    .login_wrapper{
+        padding: 30px;
     }
     
     .login-card {
@@ -740,5 +759,23 @@ body {
         height: 16px;
         top: 16px;
         left: 16px;
+    }
+
+    .header{
+        height: 75px;
+        padding: 10px;
+    }
+
+    .header img:first-child{
+        width: 310px;
+        height: 53px;
+    }
+
+    .header img:nth-child(2){
+        display: none;
+    }
+
+    .login_wrapper {
+        height: calc(100vh - 132px);
     }
 }
